@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [main page suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="main page test(failed)">
+    <groups>
+      <run>
+        <include name="main_page"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.qa.ispeakbetter.tests.LoginPageTest">
+        <methods>
+          <include name="verifyGoogleLink"/>
+          <include name="verifyTermsandConditions"/>
+          <include name="testTryforFreeSection"/>
+          <include name="verifyMainPageTitle"/>
+          <include name="testLanguageSection"/>
+          <include name="verifyMainPageURL"/>
+        </methods>
+      </class> <!-- com.qa.ispeakbetter.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- main page test(failed) -->
+</suite> <!-- Failed suite [main page suite] -->

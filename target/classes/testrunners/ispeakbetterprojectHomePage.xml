@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="home page suite" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="home page test" verbose="2">
+  	<groups>
+  		<run>
+  			<include name = "home_page"/>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="com.qa.ispeakbetter.tests.LoginPageTest"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
